@@ -1,0 +1,29 @@
+.divisao {
+    position: relative;
+    margin: auto;
+}
+
+.lista {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+
+.itens {
+    display: inline;
+    margin: 0 5px;
+    
+}
+
+.itens a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+}
+
+.itens a:hover {
+    color: #ECCC49;
+    text-decoration: underline;
+}
