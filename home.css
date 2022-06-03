@@ -1,29 +1,51 @@
-.divisao {
-    position: relative;
-    margin: auto;
+header {
+    padding: 20px 0;
+    background-color: #00013A;
 }
 
-.lista {
+.caixa {
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
+ nav {
     position: absolute;
-    top: 110px;
+    top: 140px;
     right: 0;
 }
 
-
-.itens {
+ nav li {
     display: inline;
-    margin: 0 5px;
-    
+    margin: 0 0 0 15px;
 }
 
-.itens a {
+nav a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 18px;
-    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    color:#EFF0F2;
+    transition: 1s all;
 }
 
-.itens a:hover {
+nav a:hover {
     color: #ECCC49;
     text-decoration: underline;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 3em 0px;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color:black;
+    padding: 40px 0px;
 }
