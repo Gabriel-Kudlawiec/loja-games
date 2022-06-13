@@ -37,15 +37,24 @@ nav a:hover {
 .titulo-principal {
     text-align: center;
     font-size: 2em;
-    margin: 3em 0px;
+    margin: 2em 0px;
 }
 
 p {
-    text-align: center;
+    text-align: center;   
+}
+
+p em {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 footer {
+    background-color: #00013A;
+    color: #ffffff;
+    padding: 40px 0;
     text-align: center;
-    color:black;
-    padding: 40px 0px;
+    font-size: 18px;
 }
+
