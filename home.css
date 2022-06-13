@@ -25,7 +25,7 @@ nav a {
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
-    color:#EFF0F2;
+    color: #efefef;;
     transition: 1s all;
 }
 
@@ -38,6 +38,12 @@ nav a:hover {
     text-align: center;
     font-size: 2em;
     margin: 2em 0px;
+    clear: left;
+}
+
+.controle {
+    float: left;
+    margin: 0 20px 0 20px;
 }
 
 p {
@@ -52,7 +58,7 @@ p em {
 
 footer {
     background-color: #00013A;
-    color: #ffffff;
+    color: #efefef;
     padding: 40px 0;
     text-align: center;
     font-size: 18px;
