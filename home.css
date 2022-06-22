@@ -1,6 +1,11 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
 header {
     padding: 20px 0;
-    background-color: #00013A;
+    background-color:#070119;
+    border-bottom: 2px solid #ECCC49;
 }
 
 .caixa {
@@ -25,7 +30,7 @@ nav a {
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
-    color: #efefef;;
+    color: #efefef;
     transition: 1s all;
 }
 
@@ -34,30 +39,109 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.conteudo {
+    background-color: #efefef;
+}
+
+.banner {
+    width: 100%;
+}
+
 .titulo-principal {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color:#EF4E22;
     text-align: center;
-    font-size: 2em;
-    margin: 2em 0px;
-    clear: left;
+    margin: 0 0 1em;
+    clear: left;  
+    transition: 1s all; 
 }
 
-.controle {
-    float: left;
-    margin: 0 20px 0 20px;
+.titulo-principal:hover {
+    color:#F89F19;
 }
 
-p {
-    text-align: center;   
+.principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+    
 }
 
-p em {
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+   font-weight: bold;
+}
+
+.principal em {
     font-style: italic;
-    font-size: 22px;
+}
+
+.dragao {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;  
+}
+
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.endereco p {
+    text-align: center;
+    margin: 0 0 2em;
+}
+
+.mapa {
+    margin: 0 auto;
+    width: 940px;
+    
+}
+
+.beneficios {
+    padding: 3em 0;
+    
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top; 
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
     font-weight: bold;
 }
 
+.itens::before {
+    content: "★ ";
+}
+
+.gamer {
+    width: 50%;
+    transition: 400ms;
+    box-shadow:10px 10px 10px;
+}
+
+.gamer:hover {
+    opacity: 0.3;
+}
+
 footer {
-    background-color: #00013A;
+    background-color:#070119;
     color: #efefef;
     padding: 40px 0;
     text-align: center;
