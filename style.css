@@ -1,3 +1,7 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
 header {
     padding: 20px 0;
     background-color:#070119;
@@ -42,12 +46,40 @@ nav a:hover {
 }
 
 .produtos {
-    text-align: center;
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px 0;
 }
 
 .produtos li {
-    display: inline;
-    margin: 0 0 0 15px;
+    line-height: 1.5;
+    text-align: center;
+    display:inline-block;
+    height: 480px;
+    width: 30%;
+    margin: 0 10px;
+    padding: 30px 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 2px solid #070119;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #ECCC49;
+}
+
+
+.produtos h2 {
+    font-family: 'Press Start 2P', cursive;
+    color:#EF4E22;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.produto-descricao {
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 footer {
