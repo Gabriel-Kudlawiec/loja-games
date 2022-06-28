@@ -82,6 +82,39 @@ nav a:hover {
     font-size: 18px;
 }
 
+form {
+    margin: 50px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color:#EECD43;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    transform: scale(1.1);
+}
+
 footer {
     background-color:#070119;
     color: #efefef;
